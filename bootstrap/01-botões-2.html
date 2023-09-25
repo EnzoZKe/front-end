@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body class="pt-5 p-lg-5 ">
+    <!--*COM BOOTSTRAP*-->
+    <!--
+?       01- Primary com cor de texto black
+?       02- Tipo danger com cor de texto dark
+?       03- Tipo warning
+?       04- Tipo info com cor do texto secondary e o background do texto sucess
+
+*       Crie botôes usando elementos da tag "a" e do tipo input "submit"
+?       05- Tag "a": tipo primary
+?       06- Tag input "submit": tipo sucess
+
+*       Crie botões do tipo outline
+?       07- botão do tipo primary
+?       08- Botão do tipo warning
+
+*       Crie um botão ocupando uma linha inteira
+?       09- Do tipo outline sucess, larger e margin top 3
+    -->
+
+    <div>
+        <button class="btn btn-primary  text-black">primary</button>
+        <button class="btn btn-danger text-black ">Danger</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-info text-secondary bg-success">Info</button>
+    </div>
+
+    <br>
+
+    <div>
+        <a href="#" class="btn bg-primary">link</a>
+        <input type="submit" value="submit" class="btn btn-success">
+    </div>
+
+    <br>
+
+    <div>
+        <button class="btn btn-outline-primary">Outline1</button>
+        <button class="btn btn-outline-warning">Outline2</button>
+    </div>
+    
+    <br>
+
+    <div class="d-grid">
+        <button class="btn btn-outline-success btn-lg mt-3">Grande</button>
+    </div>
+
+    <br>
+
+    <div class="d-grid w-50">
+        <button class="btn btn-outline-warning text-black">Meia pag</button>
+    </div>
+
+    <div class="d-grid w-100 ">
+        <button class="btn btn-outline-success btn-lg mt-3">100%</button>
+    </div>
+
+    <div class="d-grid w-75">
+        <button class="btn btn-outline-success btn-lg mt-3">75%</button>
+    </div>
+
+    <div class="d-grid w-50 ">
+        <button class="btn btn-outline-success btn-lg mt-3">50%</button>
+    </div>
+
+    <div class="d-grid w-25 ">
+        <button class="btn btn-outline-success btn-lg mt-3">25%</button>
+    </div>
+
+    <!--Box mode-->
+    <h1>Box model</h1>
+    <hr>
+    <div class="display-1 bg-warning border border-primary border-5 rounded-5 text-center ">
+        testing
+    </div>
+</body>
+
+</html>

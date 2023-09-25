@@ -1,0 +1,35 @@
+@media (max-width: 575px) {
+    .principal {
+        background-color: red;
+    }
+}
+
+@media (min-width: 576px) {
+    .principal {
+        background-image: url(https://m.media-amazon.com/images/I/412l7IT26vL.jpg);
+    }
+}
+
+@media (min-width: 768px) {
+    .principal {
+        background-image: url(https://www.lenovo.com/medias/?context=bWFzdGVyfHJvb3R8NTU3MDEwfGltYWdlL3BuZ3xoZmIvaDhmLzEzNzMyMjM5MDE1OTY2LmpwZ3w4ZTM1ZWVhYmYyOGU0MjY1NTUxNmJmMjEzYjlhZmUzZTBlMmNhNGUzZjQ0MDk0ODlhNDFjZGRkMGY3OTRmNTYw);
+    }
+}
+
+@media (min-width: 992px) {
+    .principal {
+        background-color: pink;
+    }
+}
+
+@media (min-width: 1200px) {
+    .principal {
+        background-color: cyan;
+    }
+}
+
+@media (min-width: 1400px) {
+    .principal {
+        background-color: palegoldenrod;
+    }
+}

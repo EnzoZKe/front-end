@@ -1,0 +1,16 @@
+:root{
+    --primary: #510f0f;
+
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.btn-primary{
+    color: var(--primary) !important;
+}
+
+.bg-light{
+    background-color: var(--primary) !important;
+}

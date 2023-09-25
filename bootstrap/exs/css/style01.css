@@ -1,0 +1,50 @@
+@media (max-width: 575px) {
+    .principal {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@media (min-width: 576px) {
+    .principal {
+        background-image: url("https://m.media-amazon.com/images/I/412l7IT26vL.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .principal {
+        background-image: url("https://m.media-amazon.com/images/I/412l7IT26vL.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .principal {
+        background-image: url("https://www.lenovo.com/medias/?context=bWFzdGVyfHJvb3R8NTU3MDEwfGltYWdlL3BuZ3xoZmIvaDhmLzEzNzMyMjM5MDE1OTY2LmpwZ3w4ZTM1ZWVhYmYyOGU0MjY1NTUxNmJmMjEzYjlhZmUzZTBlMmNhNGUzZjQ0MDk0ODlhNDFjZGRkMGY3OTRmNTYw");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .principal {
+        background-image: url("https://portalgoverno.com.br/wp-content/uploads/2022/08/Computador-Desktop-Lenovo-ThinkCentre-M70q-Portal-Governo.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
+
+@media (min-width: 1400px) {
+    .principal {
+        background-image: url("https://www.lg.com/br/images/tv/md07533082/gallery/D02.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
